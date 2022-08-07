@@ -1,0 +1,250 @@
+.RiceSection {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 200px;
+}
+.Rice{
+    width: 100%;
+    height: 100vh;
+  background-size: cover;
+  background-repeat: repeat-y;
+  padding-bottom: 2rem;
+  /* background-image: url("../../../assets/riceBackground.png"); */
+
+
+}
+.Sections{
+    width: 100%;
+    height: 100vh;
+  background-size: cover;
+  background-repeat: repeat-y;
+  padding-bottom: 2rem;
+  /* background-image: url("../../../assets/riceBackground.png"); */
+   
+    position: relative;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.Rice .Navbar{
+    width: 100%;
+    margin: 0rem auto;
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: space-around; */
+    transition: all 0.5s ease-in-out;
+    
+
+}
+.StickyNavbar{
+
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all 0.5s ease-in-out;
+}
+.Rice .Navbar .Logo{
+    width: 100%;
+    height: 100%;
+}
+.Rice .Navbar .Logo img{
+    width: 100%;
+} 
+.Rice .Navbar .Toggle{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 2rem;
+}
+.Rice .Navbar .Toggle .Bar{
+    width: 3rem;
+    height: 0.5rem;
+    margin: 0.1rem 0;
+    background-color: rgba(29, 25, 107, 0.8);
+    border-radius: 0.2rem;
+
+}
+.Link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem auto;
+    
+}
+ .Link ul{
+     width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+
+}
+ .Link ul li{
+    margin: 0 2rem;
+}
+ .Link ul li a{
+    color: rgba(29, 25, 107, 0.8);
+    font-family: ElMesseriBold, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+ .Link ul li a:hover{
+    text-decoration: none;
+    color: #009245;
+}
+
+.Rice .RiceContent{
+    width: 100%;
+    height: 100%;
+    margin: 1rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+}
+/* .Rice .RiceContent img{
+    width: 90%;
+} */
+.Rice .RiceContent .RiceInfo{
+    width: 80%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 1rem auto;
+height: 100%;
+justify-content: center;
+
+}
+.Rice .RiceContent .RiceInfo h1{
+    width: 80%;
+    color:#000 ;
+    font-family: ElMesseriBold, sans-serif;
+    /* background-image: url('../../../assets/icons/titreBorder.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+.Rice .RiceContent .RiceInfo p{
+    width: 80%;
+    font-family: DinRegular, sans-serif;
+    color: #fff;
+    /* margin: 1rem 0; */
+    font-size: 1.5rem;
+    text-align: center;
+}
+.Rice .RiceContent .RiceInfo span{
+    font-family: DinRegular, sans-serif;
+    color: #565555;
+    /* margin: 1rem 0; */
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.Rice .RiceContent .Products{
+    width: 100%;
+display: flex;
+justify-content: center;
+margin: 1rem 0;
+height: 100%;
+align-items: center;
+
+}
+.Rice .RiceContent .Products img{
+    width: 90%;
+}
+/*  depart */
+.Sections .RiceContent{
+    width: 100%;
+height: 100%;
+padding: 2rem 0;
+}
+/* .Sections .RiceContent img{
+    width: 80%;
+} */
+.Sections .RiceContent .RiceInfo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+justify-content: center;
+    margin: 0 auto;
+    padding-top: 2rem;
+
+}
+.Sections .RiceContent .RiceInfo h1{
+    width: 80%;
+    color:#000 ;
+    font-family: ElMesseriBold, sans-serif;
+    /* background-image: url('../../../assets/icons/titreBorder.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+.Sections .RiceContent .RiceInfo p{
+    width: 80%;
+    font-family: DinRegular, sans-serif;
+    color: #fff;
+    /* margin: 1rem 0; */
+    font-size: 1.5rem;
+    text-align: center;
+}
+.Sections .RiceContent .RiceInfo a{
+    font-family: DinRegular, sans-serif;
+    color: #565555;
+    /* margin: 1rem 0; */
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.Sections .RiceContent .Products{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    align-items: center;
+
+}
+.Sections .RiceContent .Products img{
+    width: 90%;
+}
+@media(max-width: 991px){
+    .Rice .Navbar .Logo img{
+        width: 100%;
+    }
+}
+@media(max-width: 768px){
+    .Link{
+        display: none;
+    }
+    .Rice .Navbar .Logo img{
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px){
+    .Rice .Navbar .Logo img{
+        width: 40%;
+    }
+}

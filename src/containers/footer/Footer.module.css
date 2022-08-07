@@ -1,0 +1,162 @@
+.Footer{
+   width: 100%;
+    /* background-image: url('../../assets/footerBG.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat; */
+    /* background-color: #39B54A; */
+    margin-top: 2rem;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0;
+
+}
+.Footer .SocialMedia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Footer .SocialMedia .Txt p{
+font-family: SukarBold, 'sans-serif';
+color: #2B3990;
+font-size: 1.2rem;
+}
+.Footer .SocialMedia .Txt p span{
+    font-family: SukarBlack, 'sans-serif';
+}
+.Footer .SocialMedia .Icons{
+    margin: 0 1rem;
+}
+.Footer .SocialMedia .Icons a{
+   margin: 0rem 0.5rem;
+
+}
+.Footer .SocialMedia .Email span{
+    font-size: 1.2rem;
+    font-family: SukarBold, 'sans-serif';
+    color: #2B3990;
+    margin: 0 0.5rem;
+}
+.Footer .FooterItem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.Footer .FooterItem h4{
+    font-family: SukarBlack, sans-serif;
+    color: #2B3990;
+    font-size: 0.8rem;
+    text-align: right;
+
+}
+.Footer .FooterItem h4 a{
+    color: #2B3990;
+    text-decoration: none;
+}
+.Footer .FooterItem .FooterInfo{
+    width: 100%;
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.Footer  .FooterInfo p, .Footer .FooterItem .FooterInfo span{
+    font-size: 0.8rem;
+    font-family: SukarRegular, sans-serif;
+    color: #2B3990;
+text-align: right;
+line-height: 10px;
+direction: rtl;
+}
+
+.Footer .classImgFooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer .classImgFooter img{
+    width: 30%;
+}
+@media(min-width: 1500px){
+    .Footer .FooterItem{
+        justify-content: center;
+    }
+}
+@media(max-width: 1295px){
+    .Footer .FooterItem h4{
+        font-size: 0.5rem;
+    }
+    .Footer  .FooterInfo p, .Footer .FooterItem .FooterInfo span{
+        font-size: 0.5rem;
+    }
+}
+@media(max-width: 991px){
+    .Footer{
+        position: relative;
+    }
+    .Footer .FooterItem img{
+        width: 20%;
+    }
+    .Footer .FooterItem{
+        
+       margin-bottom: 1rem ;
+       padding-right: 5rem;
+        
+    }
+    .Footer  .classImgFooter{
+        display: none;
+    }
+    .Footer .FooterItem h4{
+        font-size: 1rem;
+    }
+    .Footer  .FooterInfo p, .Footer .FooterItem .FooterInfo span{
+        font-size: 0.8rem;
+    }
+    
+}
+
+
+@media(max-width: 768px){
+    
+    .Footer{
+        padding-top: 0rem;
+        padding-bottom: 0rem ;
+        padding-left: 0 ;
+        padding-right: 0 ;
+        
+        margin-top: 0;
+    }
+    .Footer .SocialMedia{
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .Footer .SocialMedia .Txt{
+        display: none;
+    }
+    .Footer .SocialMedia .Icons{
+        margin: 0 1rem;
+    }
+}
+
+@media(max-width: 575px){
+    .Footer .SocialMedia{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Footer .SocialMedia .Icons{
+        margin: 1rem;
+    }
+    .Footer .FooterItem{
+        padding: 0 ;
+        justify-content: center;
+        align-items: center;
+    }
+}

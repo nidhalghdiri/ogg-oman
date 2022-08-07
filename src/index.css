@@ -1,0 +1,60 @@
+@font-face {
+  font-family: ElMesseriRegular;
+  src: url(./assets/fonts/ElMessiri-Regular.otf);
+}
+@font-face {
+  font-family: ElMesseriMedium;
+  src: url(./assets/fonts/ElMessiri-Medium.otf);
+}
+@font-face {
+  font-family: ElMesseriBold;
+  src: url(./assets/fonts/ElMessiri-Bold.otf);
+}
+@font-face {
+  font-family: DinRegular;
+  src: url(./assets/fonts/Din-Regular.otf);
+}
+
+@font-face {
+  font-family: Gess;
+  src: url(./assets/fonts/gess.otf);
+}
+@font-face {
+  font-family: ara;
+  src: url(./assets/fonts/ara.ttf);
+}
+@font-face {
+  font-family: nasser;
+  src: url(./assets/fonts/Nasser-Thin.otf);
+}
+@font-face {
+  font-family: sukarRegular;
+  src: url(./assets/fonts/SukarRegular.ttf);
+}
+@font-face {
+  font-family: sukarBold;
+  src: url(./assets/fonts/Sukar-Bold-1.ttf);
+}
+@font-face {
+  font-family: sukarBlack;
+  src: url(./assets/fonts/SukarBlack.ttf);
+}
+html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

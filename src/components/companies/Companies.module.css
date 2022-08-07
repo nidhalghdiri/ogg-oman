@@ -1,0 +1,79 @@
+.Companies{
+    width: 100%;
+}
+.Companies .Content{
+    width: 80%;
+    margin: 1rem auto;
+}
+.Companies .Title{
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem ;
+}
+.Companies .Title h1{
+    font-family: ElMesseriBold, sans-serif;
+    color: #FFF;
+    margin: 1rem 0;
+    border-bottom: 5px solid #009245;
+    text-align: center;
+}
+.Companies .Content .Company{
+    width: 100%;
+    height: 100%;
+    min-width: 10rem;
+    padding: 1rem;
+    /* background-color: #FFFFFF; */
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.Companies .Content .Company .CompanyImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+.Companies .Content .Company .CompanyImg img{
+    width: 80%;
+    transform: scale(1);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.Companies .Content .Company .CompanyImg img:hover{
+    transform: scale(1.2);
+    transition: all .5s ease-in-out;
+}
+.Companies .Content .Company .CompanyContent{
+    width: 100%;
+  
+}
+.Companies .Content .Company .CompanyContent p{
+    font-family: Gess, sans-serif;
+color: #213C7F;
+text-align: justify;
+direction: rtl;
+line-height: 2rem;
+}
+.Companies .Content .Company .CompanyContent img{
+    width: 1.5rem;
+    margin: 0 0.5rem;
+}
+.Companies .Content .Company .CompanyContent .Lien{
+    width: 100%;
+    text-align: center;
+}
+.Companies .Content .Company .CompanyContent .Lien span{
+    font-family: ElMesseriMedium, sans-serif;
+    color: #009245;
+    cursor: pointer;
+    
+}
+.Companies .Content .Company .CompanyContent .Lien span:hover{
+    color: #213C7F;
+}

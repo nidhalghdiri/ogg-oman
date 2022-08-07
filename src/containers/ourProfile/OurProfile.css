@@ -1,0 +1,175 @@
+.OurProfile{
+    width: 100%;
+    margin: 1rem auto;
+    background-color: #40a629;
+    padding: 5rem 0;
+}
+
+.OurProfile .OurProfileMain{
+    width: 80%;
+    margin: 0 auto;
+}
+.OurProfile .OurProfileMain .Slides{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.OurProfile .OurProfileMain .OurProfileImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.OurProfile .OurProfileMain .OurProfileContent{
+    width: 60%;
+    margin: 1rem auto;
+    
+}
+.OurProfile .OurProfileMain .ProfileImages{
+    width: 100%;
+    margin: 2rem auto;
+    
+}
+.OurProfile .OurProfileMain .ProfileImages ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Imgs{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+    
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Imgs:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Imgs img {
+    min-width: 100px ;
+    width: 100%;
+}
+
+.OurProfile .OurProfileMain .ProfileImages ul li.Items .Profile_Item_Link{
+    text-decoration: none;
+    cursor: pointer;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Items .Profile_Item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+    text-align: center;
+    border-bottom: 1px dashed #FFFFFF;
+    cursor: pointer;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Items .Profile_Item img{
+    height: 50%;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Items .Profile_Item span{
+    font-family: ElMesseriRegular, sans-serif;
+    color: #FFFFFF; 
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Items .Profile_Item:hover{
+    cursor: pointer;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Items .Profile_Item:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Items .Profile_Item:hover span{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Items ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Items ul li {
+    width: 100%;
+    font-size: 0.8rem;
+    font-family: sukarRegular, sans-serif;
+    text-align: center;
+    direction: rtl;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    max-width: 200px;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Items ul li a {
+text-decoration: none;
+color: #FFFFFF;
+}
+.OurProfile .OurProfileMain .ProfileImages ul li.Items ul li a:hover {
+text-decoration: none;
+color: #222222;
+}
+.OurProfile .OurProfileMain .OurProfileContent h1{
+    font-size: 10rem;
+    font-family: sukarBlack, sans-serif;
+    text-align: center;
+    direction: rtl;
+    color: #FFFFFF;
+
+}
+.OurProfile .OurProfileMain .OurProfileContent p{
+    font-size: 1.5rem;
+    font-family: sukarRegular, sans-serif;
+    text-align: justify;
+    direction: rtl;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+}
+.OurProfile .OurProfileMain .Profile_Items{
+    width: 50%;
+}
+.OurProfile .OurProfileMain .Profile_Items .Profile_Item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+    text-align: center;
+}
+
+.OurProfile .OurProfileMain .Profile_Items .Profile_Item img{
+    height: 30px;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.OurProfile .OurProfileMain .Profile_Items .Profile_Item span{
+    font-family: ElMesseriRegular, sans-serif;
+    color: #FFFFFF; 
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.OurProfile .OurProfileMain .Profile_Items .Profile_Item:hover{
+    cursor: pointer;
+}
+.OurProfile .OurProfileMain .Profile_Items .Profile_Item:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.OurProfile .OurProfileMain .Profile_Items .Profile_Item:hover span{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}

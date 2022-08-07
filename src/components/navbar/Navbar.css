@@ -1,0 +1,232 @@
+.NavAr {
+  width: 100%;
+  height: 100%;
+  margin: 0rem auto;
+}
+.NavAr ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+}
+.NavAr ul li {
+  /* margin: 0 1rem; */
+  padding: 1rem;
+}
+.NavAr ul li a,
+.NavAr ul li span {
+  font-size: 1.5rem;
+  color: #2d2e82;
+  font-family: ElMesseriBold, sans-serif;
+  cursor: pointer;
+}
+.NavAr ul li .SearchNav {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+.NavAr ul li .SearchNav ul.SearchItems {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 80%;
+  margin-right: 0.5rem;
+  /* background-color: #CCC; */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 99;
+  /* min-height: 200px; */
+  direction: rtl;
+  text-align: right;
+}
+.NavAr ul li .SearchNav ul.SearchItems li {
+  width: 100%;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.NavAr ul li .SearchNav ul.SearchItems li img {
+  width: 32px;
+  margin-left: 1rem;
+}
+.NavAr ul li .SearchNav ul.SearchItems li span {
+  font-family: ElMesserRegular, sans-serif;
+  font-size: 1rem;
+  color: #000;
+}
+.NavAr ul li .SearchNav .SearchInput {
+  text-align: right;
+}
+.NavAr ul li .SearchNav .SearchBtn {
+  border: none;
+  padding: 0;
+}
+.NavAr ul li .SearchNav .SearchBtn:hover {
+  background: none;
+}
+.NavAr ul li .SearchNav .SearchBtn img {
+  width: 60%;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.NavAr ul li .SearchNav .SearchBtn:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.NavAr ul li a:hover {
+  text-decoration: none;
+  color: #009245;
+}
+.NavAr .Dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.NavAr .Dropdown .Dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #009245;
+  min-width: 8rem;
+  left: -70%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: right;
+  flex-direction: column;
+}
+.NavAr .Dropdown .Dropdown_content a {
+  color: #ffffff;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.8rem;
+}
+
+.NavAr .Dropdown .Dropdown_content a:hover {
+  color: #009245;
+  background-color: #fff;
+}
+.NavAr .Dropdown:hover .Dropdown_content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.NavArOpen {
+  animation: openNav 0.3s ease-out forwards;
+}
+
+.NavArClosed {
+  animation: closeNav 0.3s ease-out forwards;
+}
+
+@keyframes openNav {
+  0% {
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+  /* 50% {
+        opacity: 1;
+        transform: translateY(90%);
+    } */
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes closeNav {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* 50% {
+        opacity: 0.8;
+        transform: translateY(60%);
+    } */
+  100% {
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+}
+
+@media (max-width: 1366px) {
+  .NavAr ul li a,
+  .NavAr ul li span {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 900px) {
+  .NavAr ul li .SearchNav {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .NavAr {
+    /* display: none; */
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #bbdaa9;
+    position: fixed;
+  }
+  .NavAr ul {
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+}
+
+@media (min-width: 688px) and (max-width: 928px) {
+  .NavAr ul li {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+  }
+}
+
+/* @media (min-width: 570px) and (max-width: 688px){
+
+    .NavAr ul{
+        width: 85%;
+        list-style: none;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0.5rem;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+} */
+@media (max-width: 579px) {
+  .NavAr ul {
+    width: 100%;
+    list-style: none;
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-between; */
+    /* padding: 0.5rem; */
+    /* flex-wrap: wrap; */
+    /* margin: 0 auto; */
+  }
+}
+@media (max-width: 545px) {
+  .NavAr ul {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .NavAr ul {
+    width: 100%;
+  }
+  .NavAr ul li a,
+  .NavAr ul li span {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,61 @@
+.OurMessage{
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.OurMessage .OurMessageMain{
+    width: 80%;
+    margin: 0 auto;
+}
+.OurMessage .OurMessageMain .Slides{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.OurMessage .OurMessageMain .OurMessageImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.OurMessage .OurMessageMain .OurMessageImg img{
+    width: 100%;
+}
+
+.OurMessage .OurMessageMain .OurMessageContent{
+    width: 100%;
+    
+}
+
+.OurMessage .OurMessageMain .OurMessageContent h1{
+    font-size: 4rem;
+    font-family: sukarBlack, sans-serif;
+    text-align: right;
+    direction: rtl;
+    /* color: #213C7F; */
+    color: #222;
+}
+.OurMessage .OurMessageMain .OurMessageContent .HistoryTitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.OurMessage .OurMessageMain .OurMessageContent span{
+    font-size: 2rem;
+    font-family: sukarBlack, sans-serif;
+    text-align: right;
+    direction: rtl;
+    /* color: #213C7F; */
+    color: #666666;
+    
+}
+.OurMessage .OurMessageMain .OurMessageContent p{
+    font-size: 1.2rem;
+    font-family: ElMesseriRegular, sans-serif;
+    text-align: justify;
+    direction: rtl;
+    line-height: 2.5rem;
+    color: #222;
+}

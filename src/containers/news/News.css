@@ -1,0 +1,22 @@
+.News{
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.News .NewsMain{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.News .NewsMain .NewsImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.News .NewsMain .NewsImg img{
+    width: 100%;
+}
+

@@ -1,0 +1,51 @@
+.AhliaContainer{
+    width: 100%;
+    margin:  1rem auto;
+
+}
+
+.AhliaContainer .BrandMain{
+    width: 90%;
+    margin: 1rem auto;
+}
+.AhliaContainer .BrandMain .BrandContent{
+    width: 100%;
+}
+.AhliaContainer .BrandMain .BrandContent .BrandLogo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.AhliaContainer .BrandMain .BrandContent .BrandLogo img{
+    width: 50%;
+    max-width: 200px;
+}
+.AhliaContainer .BrandMain .BrandContent .BrandText{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: justify;
+    direction: rtl;
+    padding-top: 1rem;
+}
+.AhliaContainer .BrandMain .BrandContent .BrandText p{
+    font-family: ElMesseriRegular, sans-serif;
+    color: #222222;
+    line-height: 2rem;
+    direction: rtl;
+}
+.AhliaContainer .BrandMain .BrandImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AhliaContainer .BrandMain .BrandImg img{
+    width: 100%;
+}

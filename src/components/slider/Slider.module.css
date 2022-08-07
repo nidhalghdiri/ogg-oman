@@ -1,0 +1,41 @@
+.Slider{
+    width: 100%;
+    margin: 1rem 0;
+    position : relative;
+}
+.Slider img{
+    width: 100%;
+}
+
+.BtnPrev{
+    position: absolute;
+    top:40%;
+    left:3%;
+    border: none;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background: none;
+    font-size: 5rem;
+    padding: 0.3rem 1rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+.BtnPrev:hover{
+    color: #242424;
+}
+.BtnNext{
+    position: absolute;
+    top:40%;
+    right:3%;
+    border: none;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background: none;
+    font-size: 5rem;
+    padding: 0.3rem 1rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+.BtnNext:hover{
+    color: #242424;
+}

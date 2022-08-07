@@ -1,0 +1,38 @@
+.AnyClassForContainer {
+    background-color: rgba(250, 250, 250, 0.5);
+    position: fixed;
+    right: -100px;
+    bottom: 150px;
+    transition: right 0.5s;
+    cursor: pointer;
+    background-color: #213e86;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .AnyClassForTransition {
+    right: 20px;
+  }
+  .AnyClassForContainer svg{
+    fill: #213e86;
+  }
+
+  .Whatsapp{
+   display: none;
+  }
+
+
+  @media (max-width:991px){
+    .Whatsapp{
+      display: block;
+      position: fixed;
+      bottom: 0.5rem;
+      left: 0.5rem;
+      width: 20%;
+      display: flex;
+      justify-content: flex-end;
+     }
+     .Whatsapp img{
+       width: 80%;
+     }
+  }

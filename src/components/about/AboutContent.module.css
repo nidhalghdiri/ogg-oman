@@ -1,0 +1,103 @@
+.About {
+    width: 80%;
+    margin: 1rem auto;
+    padding: 5rem 0;
+    
+
+}
+.About .AboutItem{
+    width: 80%;
+    height: 100%;
+    /* min-height: 20rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+    /* border: 1px solid #CCC; */
+    /* background-color: #FFF; */
+    border-radius: 2rem;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+.About .AboutItem:hover{
+     /* border: 1px solid #CCC; */
+    background-color: #FFF;
+    box-shadow: 0 5px 10px #CCC;
+    transition: all 0.5s ease-in-out;
+}
+.About .AboutItem .AboutImg{
+    width: 60%;
+    /* position: absolute;
+    top: -30%; */
+    padding: 0.5rem;
+}
+.About .AboutItem .AboutImg img{
+    width: 100%;
+}
+.About .AboutItem h1{
+   font-family: sukarBold, sans-serif; 
+   font-size: 1.5rem;
+   color: #39a935;
+    margin: 1rem 0;
+    /* border-bottom: 5px solid #009245; */
+    text-align: center;
+    direction: rtl;
+} .About .AboutItem p {
+    font-size: 1.2rem;
+    font-family: sukarRegular, sans-serif;
+    color: #2B3990;
+    margin: 1rem 0;
+    text-align: center;
+    direction: rtl;
+}
+
+.About .AboutItem button  , .About .AboutItem a {
+    font-family: sukarRegular, sans-serif;
+    color: #009245;
+    background: none;
+    border: none;
+}
+
+.About .AboutItem button:hover,  .About .AboutItem a:hover{
+    color: #2B3990;
+    text-decoration: none;
+}
+
+@media (max-width: 1402px){
+    .About .AboutItem p {
+        font-size: 1rem;
+    }
+}
+@media(max-width: 1166px){
+    .About .AboutItem p {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 991px){
+    .About .AboutItem{
+        width: 80%;
+    }
+    .About .AboutItem h1{
+        font-size: 2rem;
+    }
+    .About .AboutItem .AboutImg{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .About .AboutItem .AboutImg img{
+        width: 50%;
+    }
+}
+@media (max-width: 768px){
+    
+    .About .AboutItem h1{
+        font-size: 1.5rem;
+    }
+    .About .AboutItem .AboutImg img{
+        width: 100%;
+    }
+}

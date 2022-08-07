@@ -1,0 +1,129 @@
+.OufuqContainer {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.OufuqContainer .AhliaSlider {
+  width: 90%;
+  margin: 1rem auto;
+}
+.OufuqContainer .AhliaSlider .AhliaImg {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+
+  align-items: center;
+}
+.OufuqContainer .AhliaSlider .AhliaImg img {
+  width: 50%;
+}
+.OufuqContainer .AhliaSlider .AhliaContent {
+  width: 90%;
+  margin: 1rem auto;
+  text-align: right;
+  padding: 1rem;
+}
+.OufuqContainer .AhliaSlider .AhliaContent h1 {
+  font-family: ElMesseriBold, sans-serif;
+  color: #2d2e82;
+}
+.OufuqContainer .AhliaSlider .AhliaContent h2 {
+  font-family: ElMesseriMedium, sans-serif;
+  color: #2d2e82;
+}
+.OufuqContainer .AhliaSlider .AhliaContent p {
+  font-family: ElMesseriRegular, sans-serif;
+  color: #222222;
+  line-height: 2rem;
+  direction: rtl;
+}
+.OufuqContainer .AhliaSlider .AhliaContent button {
+  font-family: ElMesseriRegular, sans-serif;
+}
+
+.OufuqContainer .AhliaProducts {
+  width: 90%;
+  margin: 0 auto;
+}
+.OufuqContainer .AhliaProducts .AhliaProduct {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.OufuqContainer .AhliaProducts .AhliaProduct img {
+  width: 80%;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.OufuqContainer .AhliaProducts .AhliaProduct img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+  .OufuqContainer .AhliaSlider .AhliaImg {
+    justify-content: center;
+  }
+  .OufuqContainer .AhliaSlider .AhliaContent {
+    text-align: center;
+  }
+}
+
+.OufuqImage {
+  width: 100%;
+  position: relative;
+}
+
+.OufuqImage img {
+  width: 100%;
+}
+.OufuqContainer .OufuqImage .OufuqContent {
+  width: 60%;
+  /* background-color: #ccc; */
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.OufuqContainer .OufuqImage .OufuqContent .OufuqLogo {
+  width: 50%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OufuqContainer .OufuqImage .OufuqContent .OufuqLogo img {
+  width: 50%;
+}
+.OufuqContainer .OufuqImage .OufuqContent .OufuqPara {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem 0;
+}
+.OufuqContainer .OufuqImage .OufuqContent .OufuqPara h6 {
+  font-family: ElMesseriRegular, sans-serif;
+  color: #963627;
+}
+.OufuqContainer .OufuqImage .OufuqContent .OufuqPara p {
+  font-family: ElMesseriRegular, sans-serif;
+  color: #222;
+}
+.OufuqContainer .OufuqImage .OufuqContent .OufuqBrands {
+  width: 100%;
+}
+.OufuqContainer .OufuqImage .OufuqContent .OufuqBrands ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.OufuqContainer .OufuqImage .OufuqContent .OufuqBrands ul li {
+  margin: 0 0.5rem;
+}
+.OufuqContainer .OufuqImage .OufuqContent .OufuqBrands ul li img {
+  width: 50px;
+}

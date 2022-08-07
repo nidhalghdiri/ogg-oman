@@ -1,0 +1,69 @@
+.CharityContainer{
+    width: 100%;
+    margin:  1rem auto;
+
+}
+
+.CharityContainer .BrandMain{
+    width: 80%;
+    margin: 1rem auto;
+}
+.CharityContainer .BrandMain .BrandContent{
+    width: 100%;
+}
+.CharityContainer .BrandMain .BrandContent .BrandLogo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.CharityContainer .BrandMain .BrandContent .BrandLogo img{
+    width: 50%;
+    max-width: 200px;
+}
+.CharityContainer .BrandMain .BrandContent .BrandText{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: justify;
+    direction: rtl;
+    padding-top: 1rem;
+}
+.CharityContainer .BrandMain .BrandContent .BrandText p{
+    font-family: ElMesseriRegular, sans-serif;
+    color: #222222;
+    line-height: 2rem;
+    direction: rtl;
+}
+.CharityContainer .BrandMain .BrandImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CharityContainer .BrandMain .BrandImg img{
+    width: 100%;
+}
+
+.CharityContainer .BrandMain .BrandContent .BrandText .Icon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CharityContainer .BrandMain .BrandContent .BrandText .Icon img{
+    width: 80%;
+}
+.CharityContainer .BrandMain .BrandContent .BrandText .IconText{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,219 @@
+.Agencies {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    /* background-color: #17a8c1; */
+}
+.Agencies .AgenciesContent{
+    width: 80%;
+    margin: 2rem auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Agencies .AgenciesContent .AgenciesContentTitle{
+    width: 100%;
+    text-align: center;
+}
+.Agencies .AgenciesContent .AgenciesContentTitle h1{
+    color: #2d2e82;
+    font-family: SukarBlack, 'sans-serif';
+}
+.Agencies .AgenciesContent .AgenciesContentPara{
+    width: 100%;
+    text-align: center;
+
+}
+.Agencies .AgenciesContent .AgenciesContentPara p{
+    color: #FFFFFF;
+    font-family: SukarRegular, 'sans-serif';
+    direction: rtl;
+    line-height: 1.7rem;
+}
+.Agencies .AgenciesContent .AgenciesContentBtn{
+    width: 100%;
+    text-align: center;
+}
+.Agencies .AgenciesContent .AgenciesContentBtn span{
+    color: #2d2e82;
+    font-family: SukarRegular, 'sans-serif';
+    cursor: pointer;
+
+}
+.Agencies .AgenciesContent .AgenciesContentBtn span:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.Agencies .Title{
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem ;
+}
+.Agencies .Title h1{
+    font-family: ElMesseriBold, sans-serif;
+    color: #FFF;
+    margin: 1rem 0;
+    border-bottom: 5px solid #009245;
+    text-align: center;
+}
+.Agencies .Earth{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    position: relative;
+}
+.Agencies .Earth img{
+    width: 100%;
+}
+.Agencies .Earth .Cap{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+}
+
+.Agencies .Earth .Cap img{
+    width: 18%;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.Agencies .Earth .Cap img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+.Agencies .Earth .Col{
+    position: absolute;
+    top: 15%;
+    left: 63%;  
+}
+
+.Agencies .Earth .Col img{
+    width: 20%;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.Agencies .Earth .Col img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+.Agencies .Earth .Casa{
+    position: absolute;
+    top: 25%;
+    left: 28%;  
+}
+
+.Agencies .Earth .Casa img{
+    width: 14%;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.Agencies .Earth .Casa img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+.Agencies .Earth .Bau{
+    position: absolute;
+    top: 68%;
+    left: 26%;  
+}
+
+.Agencies .Earth .Bau img{
+    width: 15%;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.Agencies .Earth .Bau img:hover{
+    transform: scale(1.2); 
+    transition: 0.5s ease-in-out;
+}
+.Agencies .Earth .Lal{
+    position: absolute;
+    top: 86%;
+    left: 60%; 
+}
+
+
+.Agencies .Earth .Lal img{
+    width: 20%;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.Agencies .Earth .Lal img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+.Agencies .Earth .Zeeba{
+    position: absolute;
+    top: 70%;
+    left: 62%; 
+}
+.Agencies .Earth .Zeeba img{
+    width: 15%;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.Agencies .Earth .Zeeba img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+.Agencies .Earth .Mutlu{
+    position: absolute;
+    top: 0%;
+    left: 61%; 
+}
+.Agencies .Earth .Mutlu img{
+    width: 18%;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.Agencies .Earth .Mutlu img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+.Agencies .Earth .Sunar{
+    position: absolute;
+    top: -4%;
+    left: 60%; 
+}
+.Agencies .Earth .Sunar img{
+    width: 20%;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.Agencies .Earth .Sunar img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+.Agencies .AgenciesCountries{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+.Agencies .AgenciesCountries img{
+    width: 50%;
+}
+
+@media(max-width:991px){
+    .Agencies{
+        margin: 2rem 0;
+    }
+}

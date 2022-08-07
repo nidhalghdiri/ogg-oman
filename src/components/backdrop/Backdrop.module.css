@@ -1,0 +1,66 @@
+.Backdrop{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    z-index: 200;
+
+}
+.Backdrop .Main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.Backdrop .Main .Close{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+   cursor: pointer;
+}
+.Backdrop .Main .Close .Bar{
+    width: 2rem;
+    height: 0.2rem;
+    background-color: #FFFFFF;
+    /* border: 1px solid #000; */
+        position: absolute;
+    top: 50%;
+    left: 25%;
+}
+.BackdropOpen {
+    animation: openBackdrop 0.3s ease-out forwards;
+}
+
+.BackdropClosed {
+    animation: closeBackdrop 0.3s ease-out forwards;
+}
+
+@keyframes openBackdrop {
+    0% {
+        opacity: 0;
+    }
+    /* 50% {
+        opacity: 1;
+        transform: translateY(90%);
+    } */
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes closeBackdrop {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+        /* transform: translateY(60%); */
+    }
+    100% {
+        opacity: 0;
+    }
+}

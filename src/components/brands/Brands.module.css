@@ -1,0 +1,40 @@
+.Brands{
+    width: 100%;
+    margin: 4rem 0;
+}
+.Brands .Title{
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem ;
+}
+.Brands .Title h1{
+    font-family: ElMesseriBold, sans-serif;
+    color: #FFF;
+    margin: 1rem 0;
+    border-bottom: 5px solid #009245;
+    text-align: center;
+}
+.Brands .Slid {
+    padding: 1rem 0;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.Brands .Slid img {
+    width: 50%;
+    /* transform: scale(1);
+    transition: all 0.3s ease-in-out; */
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 0 25%;
+}
+.Brands .Slid img:hover{
+    /* transform: scale(1.2);
+    transition: all 0.3s ease-in-out; */
+    filter: grayscale(0);
+    transition: filter 0.3s ease-in-out;
+}
+

@@ -1,0 +1,49 @@
+.SideBar{
+    
+    height: 50%;
+    position: fixed;
+    top:40%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 101;
+
+}
+.SideBar .Items{
+    list-style: none;
+    transform: translateX(50%);
+    transition: transform 0.5s ease-out;
+}
+.SideBar .Items:hover{
+    transform: translateX(0px);
+    
+    transition: transform 0.5s ease-out;
+}
+.ItemsOpen{
+    
+    list-style: none;
+    transform: translateX(0px);
+}
+.SideBar ul .Item{
+    padding: 1rem;
+    background: linear-gradient(to bottom right, #ccc, #fff);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.SideBar ul .Item:hover{
+    background: linear-gradient( #ccc, #fff);
+} 
+.SideBar ul .Item img{
+    width: 30px; margin-right: 8px;
+}
+
+.SideBar ul .Item span,.SideBar ul .Item a{
+    color: #1d196b;
+    font-family: ElMesseriBold, sans-serif;
+}
+.SideBar ul .Item a:hover{
+    text-decoration: none;
+}
+

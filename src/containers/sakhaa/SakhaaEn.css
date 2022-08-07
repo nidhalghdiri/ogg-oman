@@ -1,0 +1,78 @@
+.AhliaContainerEn {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.AhliaContainerEn .AhliaSlider {
+  width: 90%;
+  margin: 1rem auto;
+}
+.AhliaContainerEn .AhliaSlider .AhliaImg {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AhliaContainerEn .AhliaSlider .SakhaaImg {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AhliaContainerEn .AhliaSlider .SakhaaImg img {
+  width: 100%;
+}
+
+.AhliaContainerEn .AhliaSlider .AhliaContent {
+  width: 90%;
+  margin: 1rem auto;
+  text-align: left;
+  padding: 1rem;
+}
+
+.AhliaContainerEn .AhliaSlider .AhliaContent h1 {
+  font-family: ElMesseriBold, sans-serif;
+  color: #2d2e82;
+}
+.AhliaContainerEn .AhliaSlider .AhliaContent h2 {
+  font-family: ElMesseriMedium, sans-serif;
+  color: #2d2e82;
+}
+.AhliaContainerEn .AhliaSlider .AhliaContent p {
+  font-family: ElMesseriRegular, sans-serif;
+  color: #222222;
+  line-height: 2rem;
+  direction: ltr;
+}
+
+.AhliaContainerEn .AhliaProducts {
+  width: 90%;
+  margin: 0 auto;
+}
+.AhliaContainerEn .AhliaProducts .AhliaProduct {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.AhliaContainerEn .AhliaProducts .AhliaProduct img {
+  width: 80%;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.AhliaContainerEn .AhliaProducts .AhliaProduct img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+  .AhliaContainerEn .AhliaSlider .AhliaImg {
+    justify-content: center;
+  }
+  .AhliaContainerEn .AhliaSlider .AhliaContent {
+    text-align: center;
+  }
+}

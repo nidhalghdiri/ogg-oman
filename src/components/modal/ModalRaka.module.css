@@ -1,0 +1,132 @@
+.Modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 201;
+    /* padding: 2rem 0; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Modal .ModalMain{
+    width: 50%;
+    height: 100%;
+    max-width: 70.875rem;
+    
+    /* background-image: url('../../assets/sakhaaMain.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 250;
+}
+
+.Modal .ModalMain .CloseBtn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    
+}
+.BackBtn{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+.CloseSVG{
+    cursor: pointer;
+    color: #242424;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.CloseSVG:hover{
+    color: #242424;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+.Modal .ModalMain .Main{
+    width: 100%;
+margin: 0 auto;
+padding: 1rem;
+
+height: 100%;
+display: flex;
+flex-direction: column;
+
+
+}
+.Modal .ModalMain .Content{
+    width: 100%;
+    margin: 1rem auto;
+    /* padding: 0.5rem; */
+}
+.Modal .ModalMain .Content .ParaMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+justify-content: flex-end;
+margin-top: 67%;
+}
+.Modal .ModalMain .Content .ParaMain p{
+    width: 35%;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-family: sukarRegular, sans-serif;
+    text-align: center;
+    direction: rtl;
+} 
+.Modal .ModalMain .Main .Content .Logo{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+
+.Modal .ModalMain .Main .Content .Logo img{
+ width: 40%
+}
+.SakhaaCategory{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.SakhaaCategory .SakhaaItem{
+    width: 100%;
+    padding: 0 1rem;
+}
+.SakhaaCategory .SakhaaItem img{
+    cursor: pointer;
+    /* filter: grayscale(0.5); */
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.SakhaaCategory img:hover{
+    transform: scale(1.2);
+    /* filter: grayscale(0); */
+    transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 1500px){
+    .Modal .ModalMain{
+        width: 80%;
+        height: 100%;
+        max-width: 70.875rem;
+     
+    }
+    .SakhaaCategory .SakhaaItem{
+        width: 100%;
+        padding: 0 3rem;
+    }
+    .Modal .ModalMain .Content{
+        padding-right: 3rem;
+    }
+    .Modal .ModalMain .Content .ParaMain p{
+        width: 35%;
+        font-size: 1rem;
+        
+    } 
+}
+

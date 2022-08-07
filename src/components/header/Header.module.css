@@ -1,0 +1,81 @@
+.Header{
+    width: 100%;
+/* height: 15rem;
+background-image: url("../../assets/headerBg.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom; */
+}
+.Header .Tinda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.Header .Tinda img {
+    width: 100%;
+}
+
+.Header .TopBar{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem;
+}
+.Header .TopBar .Lang{
+    display: flex;
+    justify-content: center;
+}
+.Header .TopBar .SocialMedia{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.Header .TopBar .SocialMedia span{
+    color: #1d196b;
+    font-family: DinRegular, sans-serif;
+}
+
+.Header .TopBar .SocialMedia img {
+    height: 1.2rem;
+    margin: 0 0.5rem;
+
+}
+.Header .TopBar .Contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Header .TopBar .Contact img{
+    height: 20px;
+    margin: 0 5px;
+}
+.Header .TopBar .Contact span {
+    color: #1d196b;
+    font-family: DinRegular, sans-serif;
+    margin: 0 5px;
+}
+
+@media (min-width: 832px) and (max-width: 998px){
+    .Header .TopBar .Contact span{
+        margin: 0;
+    }
+}
+
+@media (max-width: 832px){
+    .Header .TopBar{
+        display: none;
+    }
+    .Header .TopBar .SocialMedia{
+        display: none;
+    }
+    .Header .TopBar .Contact{
+        justify-content: flex-start;
+    }
+    .SocialCol, .ContactCol{
+        display: none;
+    }
+    
+}

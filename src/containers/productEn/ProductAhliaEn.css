@@ -1,0 +1,199 @@
+.Product {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ProductImage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductImage img {
+  width: 100%;
+}
+.ProductCaract {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  align-items: flex-end;
+  padding-bottom: 5rem;
+}
+.ProductCaract td {
+  font-family: ElMesseriBold, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+.ProductCaract td span {
+  font-size: 0.8rem;
+}
+.ProductCaract td .kgs {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ProductCaract td .kgs .kg {
+  width: 40px;
+  height: 40px;
+  margin: 0 0.5rem;
+  background-color: #2d2e82;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ProductCaract td .kgs .kg span {
+  font-family: sukarBlack, sans-serif;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.ProductInfo {
+  width: 100%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.ProductInfo .ProductBrand {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.ProductInfo .ProductBrand img {
+  width: 60%;
+}
+.ProductHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border: 1px dashed #ccc;
+  padding: 0 1rem;
+  position: relative;
+}
+.ProductHeader .ProductCountry {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.ProductHeader .ProductCountry img {
+  width: 60px;
+  margin: 0 1rem;
+}
+.ProductHeader .ProductCountry span {
+  font-family: ElMesseriRegular, sans-serif;
+  margin: 0 1rem;
+}
+
+.ProductHeader img {
+  width: 20%;
+  position: absolute;
+  top: -20%;
+  left: 90%;
+}
+.ProductTemp {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.ProductTemp img {
+  width: 50px;
+}
+.ProductTemp p {
+  font-size: 1rem;
+  color: #c2000b;
+  font-family: ElMesseriRegular, sans-serif;
+}
+.ProductBrand {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ProductBrand img {
+  width: 50%;
+  /* margin: 0 auto; */
+  margin-bottom: 2rem;
+}
+.ProductHeader p b {
+  font-size: 2rem;
+  margin: 0 0.5rem;
+  background-color: #ffffff;
+  padding: 1rem 0;
+}
+.ProductHeader p {
+  font-family: ElMesseriRegular, sans-serif;
+  text-align: justify;
+  direction: ltr;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.ProductInfo .ProductTitle {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  width: 100%;
+  text-align: center;
+}
+.ProductInfo .ProductTitle h1 {
+  font-size: 1.2rem;
+  font-family: ElMesseriBold, sans-serif;
+  color: #ffffff;
+  padding-top: 4px;
+}
+.ProductHeader .ProductTitle {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  width: 30%;
+  text-align: center;
+  margin: 1rem 0;
+}
+.ProductHeader .ProductTitle h1 {
+  font-size: 1.1rem;
+  font-family: ElMesseriBold, sans-serif;
+  color: #ffffff;
+  padding-top: 4px;
+}
+
+.ProductInfo .ProductContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: right;
+}
+.ProductInfo .ProductContent h4 {
+  font-family: ElMesseriBold, sans-serif;
+  text-align: right;
+  direction: rtl;
+  padding: 1rem;
+}
+.ProductInfo .ProductContent ul {
+  padding: 0rem 2rem;
+}
+.ProductInfo .ProductContent ul li {
+  font-family: ElMesseriRegular, sans-serif;
+  text-align: right;
+  direction: rtl;
+  margin: 1rem;
+}
